@@ -1,5 +1,5 @@
 /*ihavetofrog myoshi theme*/
-* {
+.profile-page.profile-custom-css, * {
   cursor: url("https://i.ibb.co/3Y79fzW8/mouse.png"), auto !important;
 }
 
@@ -58,17 +58,20 @@ a {
 
 .card {
   background: #ffffff60;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   border: 5px solid #31556b;
   border-radius: 40px;
   box-shadow: inset 3px 47px 0px #ffffff30;
   transition: 0.3s;
 }
 .card:hover {
-  background: #ffffff90;
-  backdrop-filter: blur(40px);
+  background: #ffffff70;
+  backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(70px);
   box-shadow: inset 3px 47px 0px #ffffff70, 5px 5px 0px #31556b;
 }
+
 .card-header {
   background: #74c684;
   font-size: 15px;
@@ -90,6 +93,7 @@ a {
 }
 
 .section-links {
+  border: unset !important;
   background: #31556b;
 }
 
